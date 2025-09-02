@@ -1,0 +1,2 @@
+//Stack => every  where we will use primitive datatypes they will be stored or need to stored in stack;
+//Heap => every where we will use non-primitive datatypes they will be stored or need to stored in stack;
