@@ -14,7 +14,18 @@
 //username.welcomeMessage()
 //console.log(this);
 
-function chai(){
-    console.log(this);
+//function chai(){
+//    let username1="Rashik"
+//    console.log(this.username);
+//}
+//chai()
+
+
+const chai = function (){
+    let username1="priyanshu";
+    console.log(this.username1)
 }
+
+//now we will write the same function using arrow function(=>)
 chai()
+

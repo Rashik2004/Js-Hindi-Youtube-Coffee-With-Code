@@ -44,12 +44,20 @@
 //console.log(username);
 
 //++++++++++++++++++++++++++++++++++++++++++++Intresting+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//console.log(addOne(4)) //we can call a fuction where ever we want, it will run that function.
 function addOne(num){
     return num+1
 }
 console.log(addOne(5))
 
+//console.log(addTwo(6)) //But here we can't call a expression before declartion of that expression.
 const addTwo = function (num){
     return num+2
 }
 console.log(addTwo(6))
+
+//this happens due to hoisting in javascript: hoisting is about how we declare the js function, how we write them
+//execution context
+
