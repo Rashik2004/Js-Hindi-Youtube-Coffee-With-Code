@@ -61,3 +61,5 @@ console.log(addTwo(6))
 //this happens due to hoisting in javascript: hoisting is about how we declare the js function, how we write them
 //execution context
 
+//termperal dead zone
+
